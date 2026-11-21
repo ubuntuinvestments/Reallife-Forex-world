@@ -66,13 +66,17 @@ footer p{max-width:850px;margin:10px auto}
 .vid .play{font-size:3rem;color:var(--gold);line-height:1;margin-bottom:8px}
 .vid h3{color:var(--text);font-size:1rem}
 .vid iframe,.vid video{width:100%;height:100%;border:0;border-radius:20px}
+.meet{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;perspective:1200px}
+.photo{position:relative;border-radius:22px;overflow:hidden;border:2px solid rgba(245,197,66,.5);box-shadow:0 30px 60px rgba(0,0,0,.65),0 0 40px rgba(245,197,66,.15);transform-style:preserve-3d;transition:transform .15s}
+.photo img{display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:3/4}
+.photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(5,7,15,.92));color:var(--gold);font-family:Cinzel,serif;font-size:1rem;letter-spacing:2px;text-align:center}
 @media(max-width:800px){nav ul{display:none}.about{grid-template-columns:1fr}#hero{text-align:center;justify-content:center}.hero-text .row{justify-content:center}}
 </style>
 </head>
 <body>
 <nav>
 <a class="brand" href="#hero"><img src="logo.png" alt="REALLIFE FOREX ACADEMY logo"> REALLIFE</a>
-<ul><li><a href="#about">About</a></li><li><a href="#courses">Courses</a></li><li><a href="#lessons">Lessons</a></li><li><a href="#why">Why Us</a></li><li><a href="#contact">Contact</a></li></ul>
+<ul><li><a href="#about">About</a></li><li><a href="#mentor">Mentor</a></li><li><a href="#courses">Courses</a></li><li><a href="#lessons">Lessons</a></li><li><a href="#why">Why Us</a></li><li><a href="#contact">Contact</a></li></ul>
 <a class="btn" style="padding:10px 22px;box-shadow:0 4px 0 #7a5a06" href="#contact">Join Now</a>
 </nav>
 
@@ -95,6 +99,15 @@ footer p{max-width:850px;margin:10px auto}
 </div>
 <div class="shield reveal"><img src="logo.png" alt="REALLIFE FOREX ACADEMY"></div>
 </div></section>
+
+<section id="mentor"><div class="wrap">
+<h2 class="gold reveal">Meet Reallife</h2>
+<p class="sub reveal">Your mentor. A real trader who started with R100 and made a first withdrawal of R5000.</p>
+<div class="meet">
+<figure class="photo tilt reveal"><img src="first-withdrawal.jpg" alt="Reallife with his first forex withdrawal" loading="lazy"><figcaption>THE FIRST WITHDRAWAL</figcaption></figure>
+<figure class="photo tilt reveal"><img src="mentor-suit.jpg" alt="Reallife, founder of REALLIFE FOREX ACADEMY" loading="lazy"><figcaption>THE FOUNDER</figcaption></figure>
+<figure class="photo tilt reveal"><img src="mentor-car.jpg" alt="Reallife trading on his phone" loading="lazy"><figcaption>ALWAYS TRADING</figcaption></figure>
+</div></div></section>
 
 <section id="courses"><div class="wrap">
 <h2 class="gold reveal">Our Courses</h2>
